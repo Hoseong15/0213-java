@@ -62,79 +62,9 @@ for (let i = 0; i < input.length; i++) {
 
 
 
-/*** 반 평균 구하기 ***/
-
-function answer(score) {
-  let average = 0;
-  // 코드 구현 
-  return average;
-}
-
-
-let input1 = [
-  [80, 95, 65, 70, 100],
-  [82, 77, 51, 64, 73, 90, 80],
-  [100, 71, 59, 88, 72, 75, 91, 93],
-];
-
-for (let i = 0; i < input1.length; i++) {
-  console.log(`#${i + 1} ${answer(input1[i])}`);
-}
-
-// 결과
-// #1 82.00
-// #2 73.86
-// #3 81.13
 
 
 
 
-/* 1. 최솟값 구하기 */
-
-function answer(x, y) {
-  let min;
-  // 코드 구현
-  return min;
-}
 
 
-let inpu2 = [
-  [16, 3],
-  [-3, 1],
-  [1000, 525],
-];
-
-for (let i = 0; i < input2.length; i++) {
-  console.log(`#${i + 1} ${answer(input2[i][0], input2[i][1])}`);
-}
-
-// 결과
-// #1 3
-// #2 -3
-// #3 525
-
-
-
-/*** 1. 대소비교 ***/
-
-function answer(x, y) {
-  let result = "";
-  // 코드 구현 
-  return result;
-}
-
-
-let inpu3 = [
-  [3, 5],
-  [7, 4],
-  [2, 2],
-];
-
-for (let i = 0; i < input3.length; i++) {
-  console.log(`#${i + 1} ${answer(input3[i][0], input3[i][1])}`);
-}
-
-// 결과
-// #1 <
-// #2 >
-// #3 =
