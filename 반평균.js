@@ -1,4 +1,3 @@
-
 /*** 반 평균 구하기 ***/
 
 function answer(score) {
